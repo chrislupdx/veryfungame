@@ -3,9 +3,25 @@
 <head>
 	<link rel="stylesheet" href="style.css">
 	<title></title>
+   <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="wrapper">
+<div class ="scorekeep">
+  <p>Your Score: 0</p>
+  <p id="points">0</p>
+</div>
+
+<div class="wrapper"> 
   <div><img class="box" id="1" onClick="poke(this.id)">
   </div>
   <div><img class="box" id="2" onClick="poke(this.id)">
@@ -24,6 +40,8 @@
   </div>
   <div><img class="box" id="9" onClick="poke(this.id)">
   </div>
+  </div>
+
 </div>
 
 	<script src="game.js"></script>
