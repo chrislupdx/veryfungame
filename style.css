@@ -3,7 +3,7 @@
 	grid-template-columns: 33% 33% 33%;
 }
 
-.box {
+.hole {
 	background-size: 75%;
 	height:100px; 
 	width:100px;
@@ -12,7 +12,7 @@
 	background-image: url(hole.jpg);
 }
 
-.woke {
+.mole {
 	background-size: 75%;
 	height:100px;
 	max-width: 100px;
