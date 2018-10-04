@@ -31,10 +31,10 @@ function flip_critters(){
 //this handles points/displaying score
 $('img').on('click', function(){
 	if (!gameend){
-		if ($(this).hasClass('hole')){
+		if ($(this).hasClass('mole')){
 			points -= 50;
 		}
-		if ($(this).hasClass('mole')){
+		if ($(this).hasClass('hole')){
 			points += 100;
 		}
 	$('#points').text(`${points}`);
